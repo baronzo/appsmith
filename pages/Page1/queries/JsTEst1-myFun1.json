@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "name": "myFun1",
+    "fullyQualifiedName": "JsTEst1.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,16 +14,17 @@
       "userPermissions": []
     },
     "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "collectionId": "Page1_JsTEst1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  let base64 = FilePicker1.files[0].data;\n  var formData = base64.split(\",\");\n}",
+      "body": "() => {}",
       "jsArguments": [],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -33,14 +34,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n  let base64 = FilePicker1.files[0].data;\n  var formData = base64.split(\",\");\n}"
+      "() => {}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1.myFun2",
+  "id": "Page1_JsTEst1.myFun1",
   "deleted": false,
-  "gitSyncId": "633515edde68142cf2d84402_63351826a041730097b9936e"
+  "gitSyncId": "633515edde68142cf2d84402_633516dbde68142cf2d84410"
 }

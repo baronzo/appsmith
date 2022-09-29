@@ -1,12 +1,12 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "JsTEst1",
     "pageId": "Page1",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\tlet base64 = FilePicker1.files[0].data\n\t\tvar formData = base64.split(\",\")\n\t\t\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\tlet base64 = FilePicker1.files[0].data\n\t\tvar formData = base64.split(\",\")\n\t\tconsole.log(formData)\n\t\tconsole.log('ddddd')\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "id": "Page1_JSObject1",
+  "id": "Page1_JsTEst1",
   "deleted": false,
   "gitSyncId": "633515edde68142cf2d84402_633516dbde68142cf2d84414"
 }
