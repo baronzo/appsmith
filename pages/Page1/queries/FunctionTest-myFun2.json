@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {}",
+      "body": "async () => {\n  console.log('tttest');\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {}"
+      "async () => {\n  console.log('tttest');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
